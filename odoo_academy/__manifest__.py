@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Odoo Academy',
-    
     'summary': """Academy app to manage Training""",
 
     'description': """
@@ -11,21 +8,19 @@
         - Sessions
         - Attendees
         """,
-    
-    'author': 'Odoo',
-    
-    'website': 'https://www.odoo.com',
-    
-    'category': 'Training',
-    'version': '0.1',
+    'license': 'OPL-1',
+    'author': 'fsrs-odoo',
+    'website': 'www.odoo.com',
+    'category': 'Tech Training',
     
     'depends': ['base'],
-    
-    'data': [
-    ],
+    'data': [],
     'demo': [
         'demo/academy_demo.xml',
     ],
-    #Add license to remove License Warning
-    'license': 'OPL-1'
+    'assets': {},
+    
+    'installable': True,
+    'application': True,
+    'auto_install': False,
 }
